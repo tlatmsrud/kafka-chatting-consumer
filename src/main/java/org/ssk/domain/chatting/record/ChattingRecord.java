@@ -20,7 +20,7 @@ public class ChattingRecord {
         this.roomId = roomId;
     }
 
-    public ChattingRecord of(String nickname, String message, String time, Long roomId){
+    public static ChattingRecord of(String nickname, String message, String time, Long roomId){
         return new ChattingRecord(nickname, message, time, roomId);
     }
 }
